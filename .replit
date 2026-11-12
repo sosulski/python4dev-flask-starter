@@ -1,0 +1,7 @@
+modules = ["python-3.11"]
+run = "pip install -q -r requirements.txt && python app.py"
+entrypoint = "app.py"
+
+[[ports]]
+localPort = 5000
+externalPort = 80
